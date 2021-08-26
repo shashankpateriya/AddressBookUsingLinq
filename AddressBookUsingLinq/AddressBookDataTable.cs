@@ -36,6 +36,7 @@ namespace AddressBookUsingLinq
             dataTable.Rows.Add("Shubham", "Pateriya", "Balak complex", "Sagar", "Mp", "41119", "723456789", "sp@gmail.com");
             return dataTable;
         }
+
         public void AddContact(AddressBookModel model)
         {
             dataTable.Rows.Add(model.First_Name, model.Last_Name, model.Address, model.City,
